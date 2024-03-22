@@ -2,8 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+/* 
+.bg-image {
+    background-image: url('../public//assets/main-home-rev-5.jpg.png');
+    background-size: cover;
+} */
