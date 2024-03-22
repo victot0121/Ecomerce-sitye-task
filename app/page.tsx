@@ -26,7 +26,7 @@ export default function Home() {
   return (
     <main className="">
       <div
-        className="h-[600px] w-[100%] relative overflow-hidden"
+        className="h-[790px] w-[100%] relative overflow-hidden"
       >
         {images.map((image: string, index: number) => (
           <div
@@ -39,10 +39,30 @@ export default function Home() {
             <Navbat />
           </div>
         )
-        )}  
-        <Controler prevSlide={prevSlide} nextSlide={nextSlide}/>
+        )}
+        <Controler prevSlide={prevSlide} nextSlide={nextSlide} />
+        <div className='absolute top-[450px] ml-12 flex flex-col gap-5 w-[90%] py-12 border-b-[1px] border-black'>
+          <div className='mb-2'>
+            <h2 className='text-4xl space-x-2 font-bold'>Mixed Textiles</h2>
+          </div>
+          <div className='w-[42%] mb-3'>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.
+            </p>
+          </div>
+          <div>
+            <button className='border-[1px] border-black flex py-4 px-4'>
+              SHOP COLLECTION
+            </button>
+          </div>
+        </div>
       </div>
-
+      
+      <section className='mt-4 w-[100%]'>
+         <div>
+              
+         </div>
+      </section>
     </main>
   );
 }
