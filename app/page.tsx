@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import Navbat from "@/components/NavList/Navbat";
-import { BsChevronRight, BsChevronLeft } from 'react-icons/bs';
+import Controler from '@/components/controllerIcons/Controler';
 
 
 
@@ -39,17 +39,8 @@ export default function Home() {
             <Navbat />
           </div>
         )
-        )}
-
-        <div className='absolute top-[300px] left-0 flex items-center w-full'>
-          <button className='bg-grey-800 text-white px-4 py-2 mr-2 text-2xl' onClick={prevSlide}>
-            <BsChevronLeft />
-          </button>
-          <button className='bg-grey-800 text-white px-4 py-2 absolute right-0 text-2xl' onClick={nextSlide}>
-            <BsChevronRight />
-          </button>
-
-        </div>
+        )}  
+        <Controler prevSlide={prevSlide} nextSlide={nextSlide}/>
       </div>
 
     </main>
