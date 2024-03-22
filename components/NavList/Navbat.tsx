@@ -12,7 +12,7 @@ import Link from 'next/link';
 const Navbar = () => {
     return (
         <div className="w-full mx-auto">
-            <div className="w-[80%] flex justify-between py-9 border-b-2 border-black mx-auto">
+            <div className="w-[80%] flex justify-between py-6 border-b-[1px] border-black mx-auto mt-2">
                 <div className="flex items-center">
                     <Link href="/">
                         <Image src={Logo} alt="Logo" />
