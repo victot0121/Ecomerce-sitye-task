@@ -4,6 +4,7 @@ import { useState } from 'react'
 import Navbat from "@/components/NavList/Navbat";
 import Controler from '@/components/controllerIcons/Controler';
 import ImageOne from '@/components/imageDisplayOne/imageOne'
+import ManWoman from '@/components/ManWoman/ManWoman'
 
 
 
@@ -71,6 +72,10 @@ export default function Home() {
           </div>
         </div>
         <ImageOne />
+      </section>
+
+      <section className='mt-12 w-[100%]'>
+         <ManWoman/>
       </section>
     </main>
   );
