@@ -50,7 +50,7 @@ const Navbar = () => {
                     </div>
                     <div className="flex gap-2">
                         <div>
-                            <h3>Cart</h3>
+                            <h3 className='text-bold'>Cart</h3>
                         </div>
                         <div className='pt-1'>
                             <BsClipboardCheck />

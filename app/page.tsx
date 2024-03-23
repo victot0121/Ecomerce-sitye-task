@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import Navbat from "@/components/NavList/Navbat";
 import Controler from '@/components/controllerIcons/Controler';
+import ImageOne from '@/components/imageDisplayOne/imageOne'
 
 
 
@@ -28,13 +29,13 @@ export default function Home() {
       <div
         className="h-[790px] w-[100%] relative overflow-hidden"
       >
-        {images.map((image: string, index: number) => (
+        {images.map((o: string, index: number) => (
           <div
             key={index}
             className={`absolute top-0 left-0 w-full h-full bg-center bg-cover transition-opacity duration-1000
               ${index === currentIndex ? 'opacity-100' : 'opacity-0 hidden'}
              `}
-            style={{ backgroundImage: `url(${image})` }}
+            style={{ backgroundImage: `url(${o})` }}
           >
             <Navbat />
           </div>
@@ -57,11 +58,19 @@ export default function Home() {
           </div>
         </div>
       </div>
-      
-      <section className='mt-4 w-[100%]'>
-         <div>
-              
-         </div>
+
+      <section className='mt-4 w-[100%] relative'>
+        <div>
+          <div className='pt-8 flex flex-col justify-center items-center '>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+              sed do eiusmod  </p>
+            <p> tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim</p>
+            <p> veniam, quis nostrud.</p>
+          </div>
+        </div>
+        <ImageOne />
       </section>
     </main>
   );
