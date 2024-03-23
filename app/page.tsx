@@ -5,6 +5,7 @@ import Navbat from "@/components/NavList/Navbat";
 import Controler from '@/components/controllerIcons/Controler';
 import ImageOne from '@/components/imageDisplayOne/imageOne'
 import ManWoman from '@/components/ManWoman/ManWoman'
+import Accusantium from '@/components/Accusantium/Accusantium'
 
 
 
@@ -75,7 +76,11 @@ export default function Home() {
       </section>
 
       <section className='mt-12 w-[100%]'>
-         <ManWoman/>
+        <ManWoman />
+      </section>
+
+      <section>
+        <Accusantium />
       </section>
     </main>
   );

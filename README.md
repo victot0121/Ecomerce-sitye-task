@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js Web Page Task
+
+This project was completed as part of a task to build a web page using Next.js, incorporating the App Router and a styling framework. The design was based on a Figma design provided.
+
+## Project Overview
+
+The web page was built using Next.js and styled using [insert styling framework used, e.g., Tailwind CSS]. The project includes the following key features:
+
+- **Folder Structure:** The project is organized with a clean and logical folder structure, including folders for pages, components, styles, and other relevant sections.
+- **Responsiveness:** The page is responsive and looks great on various screen sizes and devices, achieved through the use of media queries or responsive design techniques.
+- **Pixel Perfect:** Attention to detail was paid to achieve a pixel-perfect match with the Figma design, including matching colors, fonts, spacing, and layout.
+- **Deployment:** The page is deployed on Vercel, and the deployment link is [insert Vercel deployment link].
 
 ## Getting Started
 
-First, run the development server:
+To run the project locally, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+1. Clone the repository:
+   ```bash
+   git clone [repository URL]
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
+
+## Folder Structure
+
+The project follows the following folder structure:
+
+```
+.
+├── components       # Reusable components used in the project
+├── pages            # Next.js pages for different routes
+├── public           # Public assets such as images and fonts
+├── styles           # Global styles and styling configurations
+└── ...
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Credits
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Figma Design: [Figma Design Link](https://www.figma.com/file/ncdBNWKrbpSqMTRRc7Czl2/Task-Design?type=design&node-id=0%3A1&mode=design&t=zyruhR5piCxgtPnQ-1)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Author
 
-## Learn More
+[OYIGA VICTOR]
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
