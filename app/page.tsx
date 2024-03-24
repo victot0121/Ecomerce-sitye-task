@@ -7,6 +7,8 @@ import ImageOne from '@/components/imageDisplayOne/imageOne'
 import ManWoman from '@/components/ManWoman/ManWoman'
 import Accusantium from '@/components/Accusantium/Accusantium'
 import OurBlog from '@/components/OurBlog/OurBlog'
+import Signup from '@/components/Signup/Signup'
+import MeetTheArtists from '@/components/MeetTheArtists/MeetTheArtists'
 
 
 
@@ -90,7 +92,11 @@ export default function Home() {
 
 
       <section>
-        
+        <Signup />
+      </section>
+
+      <section>
+         <MeetTheArtists/>
       </section>
     </main>
   );
