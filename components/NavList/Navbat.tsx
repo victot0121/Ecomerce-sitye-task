@@ -1,7 +1,7 @@
 'use client'
 
 import React from 'react';
-import Logo from "@/public/assets/corsen-main-logo-x2.png.png"
+import Logo from "@/public/assets/corsen.png"
 import { BiSearchAlt } from "react-icons/bi";
 import { CiBookmark } from "react-icons/ci";
 import { BsClipboardCheck } from "react-icons/bs";

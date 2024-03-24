@@ -6,10 +6,11 @@ import Controler from '@/components/controllerIcons/Controler';
 import ImageOne from '@/components/imageDisplayOne/imageOne'
 import ManWoman from '@/components/ManWoman/ManWoman'
 import Accusantium from '@/components/Accusantium/Accusantium'
+import OurBlog from '@/components/OurBlog/OurBlog'
 
 
 
-const images: string[] = ['assets/main-home-rev-5.jpg.png', 'assets/div.elementor-background-overlay.png'];
+const images: string[] = ['assets/main-home-rev-5.jpg', 'assets/background-overlay.png'];
 
 
 export default function Home() {
@@ -81,6 +82,15 @@ export default function Home() {
 
       <section>
         <Accusantium />
+      </section>
+
+      <section>
+        <OurBlog />
+      </section>
+
+
+      <section>
+        
       </section>
     </main>
   );
