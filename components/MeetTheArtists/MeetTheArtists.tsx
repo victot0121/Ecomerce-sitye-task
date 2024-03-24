@@ -10,16 +10,16 @@ const MeetTheArtists = () => {
 
       </div>
       <div className='w-[18%] h-[250px] py-7'>
-           <h4>
-              Meet The Artists Behind The Corsen Maria & Sophia
-           </h4>
-           <p className='text-[10px] mt-4'>
-           Lorem ipsum dolor sit amet, consectetur elit, sed 
-           do eiusmod tempor incididunt ut labore et dolore magna.
-           </p>
-           <div className='text-[10px] border border-black px-2 py-2 mt-5 flex justify-center '>
-              Shop Collection
-           </div>
+        <h4>
+          Meet The Artists Behind The Corsen Maria & Sophia
+        </h4>
+        <p className='text-[10px] mt-4'>
+          Lorem ipsum dolor sit amet, consectetur elit, sed
+          do eiusmod tempor incididunt ut labore et dolore magna.
+        </p>
+        <div className='text-[10px] border border-black px-2 py-2 mt-5 flex justify-center cursor-pointer'>
+          Shop Collection
+        </div>
       </div>
     </div>
   )

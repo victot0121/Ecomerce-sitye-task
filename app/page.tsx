@@ -9,6 +9,7 @@ import Accusantium from '@/components/Accusantium/Accusantium'
 import OurBlog from '@/components/OurBlog/OurBlog'
 import Signup from '@/components/Signup/Signup'
 import MeetTheArtists from '@/components/MeetTheArtists/MeetTheArtists'
+import Followuson from '@/components/Followuson/Followuson'
 
 
 
@@ -97,6 +98,10 @@ export default function Home() {
 
       <section>
          <MeetTheArtists/>
+      </section>
+
+      <section>
+         <Followuson/>
       </section>
     </main>
   );
