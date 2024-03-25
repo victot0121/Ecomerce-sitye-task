@@ -10,6 +10,7 @@ import OurBlog from '@/components/OurBlog/OurBlog'
 import Signup from '@/components/Signup/Signup'
 import MeetTheArtists from '@/components/MeetTheArtists/MeetTheArtists'
 import Followuson from '@/components/Followuson/Followuson'
+import FastDelier from '@/components/FastDeliery/FastDeliery'
 
 
 
@@ -102,6 +103,11 @@ export default function Home() {
 
       <section>
          <Followuson/>
+      </section>
+
+
+      <section>
+         <FastDelier/>
       </section>
     </main>
   );

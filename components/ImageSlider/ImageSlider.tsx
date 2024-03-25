@@ -11,15 +11,15 @@ const ImageSlider = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 2000);
+    }, 4000);
     return () => clearInterval(interval);
   }, [images.length]);
 
   return (
-    <div className='w-full overflow-hidden mb-11 mt-12'>
+    <div className='w-full overflow-hidden  mt-12'>
       <div className={`flex gap-36 justify-center mt-5 ${styles.slider}`}>
         {images.map((image, index) => (
-          <Image className='size-40' key={index} src={`/${image}`} alt={`Image ${index + 1}`} width={100} height={100} />
+          <Image className='size-40 ' key={index} src={`/${image}`} alt={`Image ${index + 1}`} width={100} height={100} />
         ))}
       </div>
     </div>
