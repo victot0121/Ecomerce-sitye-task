@@ -12,7 +12,7 @@ import MeetTheArtists from '@/components/MeetTheArtists/MeetTheArtists'
 import Followuson from '@/components/Followuson/Followuson'
 import FastDelier from '@/components/FastDeliery/FastDeliery'
 import Footer from '@/components/Footer/Footer'
-
+import CopyRight from '@/components/CopyRight/CopyRight'
 
 
 const images: string[] = ['assets/main-home-rev-5.jpg', 'assets/background-overlay.png'];
@@ -110,6 +110,7 @@ export default function Home() {
       <section>
          <FastDelier/>
           <Footer/>
+          <CopyRight/>
       </section>
     </main>
   );

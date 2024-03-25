@@ -9,12 +9,12 @@ const Footer = () => {
         <div className='py-9 px-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6'>
             <div className="flex flex-col">
                 <Image src={Logo} alt="Logo" />
-                <p className='pt-9'>
+                <p className='pt-9 sm:pl-4 md:pl-0'>
                     Sed ut perspiciatis unde omnis iste natus
                 </p>
-                <p> error sit voluptatem accusantium</p>
+                <p className='sm:pl-4 md:pl-0'> error sit voluptatem accusantium</p>
             </div>
-            <div className='ml-0 md:ml-2 pt-2 flex flex-col'>
+            <div className='ml-2 md:ml-2 pt-2 flex flex-col'>
                 <h4>SUPPORT</h4>
                 <ul className='pt-2 gap-2 flex flex-col'>
                     <li>Help & Contact Us</li>
@@ -24,7 +24,7 @@ const Footer = () => {
                     <li>Privacy Policy</li>
                 </ul>
             </div>
-            <div className='ml-0 md:ml-2 pt-2 flex flex-col'>
+            <div className='ml-2 md:ml-2 pt-2 flex flex-col'>
                 <h4>COMPANY</h4>
                 <div className='w-[70%] pt-6'>
                     <div className='w-[80%] h-[20px] bg-black'></div>
@@ -33,13 +33,13 @@ const Footer = () => {
                     <div className='w-[35%] h-[20px] bg-black mt-5'></div>
                 </div>
             </div>
-            <div className='ml-0 md:ml-2 pt-3 flex flex-col'>
+            <div className='ml-2 md:ml-2 pt-3 flex flex-col'>
                 <h4>LOCATIONS</h4>
                 <h5>Vienna, Hansalgasse, Austria</h5>
                 <h5>Berlin, Buschallee, Germany</h5>
                 <h5>The Piazza, London, UK</h5>
             </div>
-            <div className="flex flex-col">
+            <div className="flex flex-col sm:ml-2 md:ml-0">
                 <h4>Get The Latest News</h4>
                 <div className='border-b border-black w-[300px] py-4 flex'>
                     <input type="email" placeholder='Email' className='outline-none focus:border-none'/>

@@ -52,7 +52,7 @@ const ImageOne: React.FC = () => {
             </div>
 
 
-            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6'>
+            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4'>
 
 
                 <div className='relative flex flex-col border border-gray-600 bg-[url("/assets/Main-product-list-1.jpg.png")] bg-cover bg-center mb-1'
