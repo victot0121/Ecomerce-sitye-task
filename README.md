@@ -17,7 +17,7 @@ To run the project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/victot0121/Ecomerce-sitye-task.git]
+   git clone (https://github.com/victot0121/Ecomerce-sitye-task.git)
    ```
 2. Install dependencies:
    ```bash
@@ -49,4 +49,3 @@ The project follows the following folder structure:
 ## Author
 
 [OYIGA VICTOR]
-
