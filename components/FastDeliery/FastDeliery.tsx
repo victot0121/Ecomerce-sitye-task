@@ -8,7 +8,7 @@ import Image from 'next/image'
 
 const FastDeliery = () => {
     return (
-        <div className='mt-[230px] w-[100%] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mb-12'>
+        <div className='mt-[230px] w-[100%] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4'>
             <div className='flex py-5 justify-center border border-black gap-2'>
                 <Image src={Frmame} alt='Frame' width={18} height={18} />
                 <h4>FAST DELIVERY</h4>

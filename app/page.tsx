@@ -11,6 +11,7 @@ import Signup from '@/components/Signup/Signup'
 import MeetTheArtists from '@/components/MeetTheArtists/MeetTheArtists'
 import Followuson from '@/components/Followuson/Followuson'
 import FastDelier from '@/components/FastDeliery/FastDeliery'
+import Footer from '@/components/Footer/Footer'
 
 
 
@@ -108,6 +109,7 @@ export default function Home() {
 
       <section>
          <FastDelier/>
+          <Footer/>
       </section>
     </main>
   );
